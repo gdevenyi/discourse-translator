@@ -11,6 +11,7 @@ plugins:
       - Google
       - Amazon
       - Yandex
+      - LibreTranslate
   translator_azure_subscription_key:
     default: ''
   translator_azure_region:
@@ -79,6 +80,10 @@ plugins:
   translator_google_api_key:
     default: ''
   translator_yandex_api_key:
+    default: ''
+  translator_libretranslate_endpoint:
+    default: ''
+  translator_libretranslate_api_key:
     default: ''
   max_translations_per_minute:
     default: 3
